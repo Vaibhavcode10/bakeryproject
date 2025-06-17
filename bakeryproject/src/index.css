@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.product-image {
+  transition: transform 0.3s ease-in-out;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-image:hover {
+  transform: scale(1.1);
+}
+.zoom-btn {
+  transition: transform 0.3s ease-in-out;
+}
+.zoom-btn:hover {
+  transform: scale(1.1);
+}
+/* Subscription Section */
+.subscribe-section {
+  background-color: #f4e8da;
+  color: black;
+}
+
+.subscribe-section input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.subscribe-section .btn {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #004f56;
+  color: white;
+}
+
+.footer h5 {
+  color: white;
+}
+
+.footer a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons a {
+  font-size: 24px;
+  margin-right: 10px;
+  color: white;
+}
+.subscribe-section {
+  padding: 5rem 2rem;  /* More space */
+  margin-bottom: 3rem;
+}
+
+.subscribe-section h2 {
+  margin-top: 5rem;
+}
+
+.subscribe-section input {
+  padding: 10px; /* Increase input size */
+}
+
+.subscribe-section .btn {
+  padding: 10px 16px;
+}
